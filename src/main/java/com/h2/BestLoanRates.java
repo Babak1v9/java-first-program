@@ -25,6 +25,8 @@ public class BestLoanRates {
                 ? "No available rates for term: " + loanTermInYears + " years"
                 : "Best Available Rate: " + getRates(loanTermInYears) + "%";
 
+        System.out.println(res);
+
         scanner.close();
     }
 
