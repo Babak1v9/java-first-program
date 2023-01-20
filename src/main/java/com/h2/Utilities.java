@@ -8,7 +8,7 @@ public class Utilities {
             out = Long.parseLong(in);
         } catch (Exception ex) {
             throw new IllegalArgumentException(
-                    in + "cannot be converted into a 'long' value. Exiting program.");
+                    in + " cannot be converted into a 'long' value. Exiting program.");
         }
         return out;
     }
