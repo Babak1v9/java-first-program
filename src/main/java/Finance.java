@@ -25,7 +25,7 @@ public class Finance {
         }
 
         if(!validateCommandArguments(args)) {
-            commandsToUsage.get(args[0]);
+            System.out.println(commandsToUsage.get(args[0]));
             return;
         }
 
